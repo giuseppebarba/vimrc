@@ -153,7 +153,7 @@
         set wildmode=longest,list                   " bash-like auto complete
         """ Depending on your setup you may want to enforce UTF-8. {{{
         """ Should generally be set in your environment LOCALE/$LANG
-            " set encoding=utf-8                    " default $LANG/latin1
+        set encoding=utf-8                    " default $LANG/latin1
             " set fileencoding=utf-8                " default none
         """ }}}
         """ Gvim {{{
