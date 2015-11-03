@@ -347,7 +347,7 @@
         """ You might want to override this function and its variables with
         """ your own in .vimrc.last which might set for example colorcolumn or
         """ even the textwidth. See https://github.com/timss/vimconf/pull/4
-            let g:overlength_enabled = 1
+            let g:overlength_enabled = 0
             highlight OverLength ctermbg=238 guibg=#444444
 
             function! ToggleOverLength()
