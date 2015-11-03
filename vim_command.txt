@@ -1,0 +1,63 @@
+Window navigation
+-----------------
+
+CTRL-W h	move to the window on the left
+CTRL-W j	move to the window below
+CTRL-W k	move to the window above
+CTRL-W l	move to the window on the right
+CTRL-W t	move to the TOP window
+CTRL-W b	move to the BOTTOM window
+
+Move window
+-----------
+CTRL-W K        in the middle window
+CTRL-W H	move window to the far left
+CTRL-W J	move window to the bottom
+CTRL-W L	move window to the far right
+
+
+:wqall		write and quit from all window
+
+Set 80 column for patch
+-----------------------
+:set textwidth=80
+
+select text using visual mode (v)
+:gq
+
+Indent the code
+---------------
+!indent -kr -i8 %
+
+Highlight 81 column
+-------------------
+:set textwidth=80
+:set colorcolumn=+1
+
+Ctags
+-----
+
+Ctrl+T - Jump back from the definition.
+Ctrl+W Ctrl+] - Open the definition in a horizontal split
+
+Add these lines in vimrc
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+
+Ctrl+\ - Open the definition in a new tab
+Alt+] - Open the definition in a vertical split
+
+After the tags are generated. You can use the following keys to tag into and
+tag out of functions:
+
+Ctrl+Left MouseClick - Go to definition
+Ctrl+Right MouseClick - Jump back from definition
+
+Usefull commands
+----------------
+
+U				Undo
+V "<char> Y		Select current line and copy its content into buffer <char>
+"<char> p		Put content of buffer <char> after current line
+
+<num> Y			Copy <num> lines into the buffer: 10 Y (copy 10 lines)
