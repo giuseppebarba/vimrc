@@ -65,6 +65,9 @@
         " Git wrapper inside Vim
         Plugin 'tpope/vim-fugitive'
 
+		" Code completion engine
+		Plugin 'Valloric/YouCompleteMe'
+
         " Handle surround chars like ''
         Plugin 'tpope/vim-surround'
 
