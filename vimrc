@@ -71,6 +71,9 @@
 		" Kernel code style
 		Plugin 'linuxsty.vim'
 
+		" ctags and cscope handling
+		Plugin 'basilgor/vim-autotags'
+
         " Handle surround chars like ''
         Plugin 'tpope/vim-surround'
 
