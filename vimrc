@@ -68,6 +68,9 @@
 		" Code completion engine
 		Plugin 'Valloric/YouCompleteMe'
 
+		" Kernel code style
+		Plugin 'linuxsty.vim'
+
         " Handle surround chars like ''
         Plugin 'tpope/vim-surround'
 
